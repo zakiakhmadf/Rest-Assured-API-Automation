@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b87209ac-279c-40b7-8fc2-67a2b34ed143" name="Default Changelist" comment="" />
+    <list default="true" id="b87209ac-279c-40b7-8fc2-67a2b34ed143" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Employee.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Employee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Employee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Employee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Employee.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +53,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1b77CsXD5lJUA9Oajb8Ip2lh5bI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,8 +64,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Gradle.Employee.createEmployee">
+  <component name="RunManager" selected="Gradle.Employee">
+    <configuration name="DanaDemoAPI [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Employee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -103,8 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Employee.createEmployee" />
         <item itemvalue="Gradle.Employee" />
+        <item itemvalue="Gradle.DanaDemoAPI [dependencies]" />
+        <item itemvalue="Gradle.Employee.createEmployee" />
         <item itemvalue="Gradle.Employee.getEmployee" />
       </list>
     </recent_temporary>
@@ -127,26 +174,26 @@
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="664" y="367" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.823@0.23.1440.823" timestamp="1587976221108" />
-    <state width="773" height="221" key="GridCell.Tab.0.bottom" timestamp="1587978905748">
+    <state width="779" height="221" key="GridCell.Tab.0.bottom" timestamp="1588184022966">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="773" height="221" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1587978905748" />
-    <state width="773" height="221" key="GridCell.Tab.0.center" timestamp="1587978905748">
+    <state width="779" height="221" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1588184022966" />
+    <state width="779" height="221" key="GridCell.Tab.0.center" timestamp="1588184022965">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="773" height="221" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1587978905748" />
-    <state width="773" height="221" key="GridCell.Tab.0.left" timestamp="1587978905747">
+    <state width="779" height="221" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1588184022965" />
+    <state width="779" height="221" key="GridCell.Tab.0.left" timestamp="1588184022965">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="773" height="221" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1587978905747" />
-    <state width="773" height="221" key="GridCell.Tab.0.right" timestamp="1587978905748">
+    <state width="779" height="221" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1588184022965" />
+    <state width="779" height="221" key="GridCell.Tab.0.right" timestamp="1588184022966">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
-    <state width="773" height="221" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1587978905748" />
-    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1587980142425">
+    <state width="779" height="221" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1588184022966" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog" timestamp="1588663861751">
       <screen x="0" y="23" width="1440" height="823" />
     </state>
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587971157207" />
-    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1587980142425" />
+    <state x="397" y="281" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1588663861751" />
   </component>
 </project>

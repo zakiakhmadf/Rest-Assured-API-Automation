@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">2.979s</div>
+<div class="counter">5.153s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,12 @@
 </thead>
 <tr>
 <td class="success">createEmployee</td>
-<td class="success">2.979s</td>
+<td class="success">0.883s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">getEmployee</td>
+<td class="success">4.270s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,7 +92,195 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>Request method:	POST
+<pre>Request method:	GET
+Request URI:	http://dummy.restapiexample.com/api/v1/employees
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:			&lt;none&gt;
+{
+    &quot;status&quot;: &quot;success&quot;,
+    &quot;data&quot;: [
+        {
+            &quot;id&quot;: &quot;1&quot;,
+            &quot;employee_name&quot;: &quot;Tiger Nixon&quot;,
+            &quot;employee_salary&quot;: &quot;320800&quot;,
+            &quot;employee_age&quot;: &quot;61&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;employee_name&quot;: &quot;Garrett Winters&quot;,
+            &quot;employee_salary&quot;: &quot;170750&quot;,
+            &quot;employee_age&quot;: &quot;63&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;employee_name&quot;: &quot;Ashton Cox&quot;,
+            &quot;employee_salary&quot;: &quot;86000&quot;,
+            &quot;employee_age&quot;: &quot;66&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;4&quot;,
+            &quot;employee_name&quot;: &quot;Cedric Kelly&quot;,
+            &quot;employee_salary&quot;: &quot;433060&quot;,
+            &quot;employee_age&quot;: &quot;22&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;5&quot;,
+            &quot;employee_name&quot;: &quot;Airi Satou&quot;,
+            &quot;employee_salary&quot;: &quot;162700&quot;,
+            &quot;employee_age&quot;: &quot;33&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;6&quot;,
+            &quot;employee_name&quot;: &quot;Brielle Williamson&quot;,
+            &quot;employee_salary&quot;: &quot;372000&quot;,
+            &quot;employee_age&quot;: &quot;61&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;7&quot;,
+            &quot;employee_name&quot;: &quot;Herrod Chandler&quot;,
+            &quot;employee_salary&quot;: &quot;137500&quot;,
+            &quot;employee_age&quot;: &quot;59&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;8&quot;,
+            &quot;employee_name&quot;: &quot;Rhona Davidson&quot;,
+            &quot;employee_salary&quot;: &quot;327900&quot;,
+            &quot;employee_age&quot;: &quot;55&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;9&quot;,
+            &quot;employee_name&quot;: &quot;Colleen Hurst&quot;,
+            &quot;employee_salary&quot;: &quot;205500&quot;,
+            &quot;employee_age&quot;: &quot;39&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;10&quot;,
+            &quot;employee_name&quot;: &quot;Sonya Frost&quot;,
+            &quot;employee_salary&quot;: &quot;103600&quot;,
+            &quot;employee_age&quot;: &quot;23&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;11&quot;,
+            &quot;employee_name&quot;: &quot;Jena Gaines&quot;,
+            &quot;employee_salary&quot;: &quot;90560&quot;,
+            &quot;employee_age&quot;: &quot;30&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;12&quot;,
+            &quot;employee_name&quot;: &quot;Quinn Flynn&quot;,
+            &quot;employee_salary&quot;: &quot;342000&quot;,
+            &quot;employee_age&quot;: &quot;22&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;13&quot;,
+            &quot;employee_name&quot;: &quot;Charde Marshall&quot;,
+            &quot;employee_salary&quot;: &quot;470600&quot;,
+            &quot;employee_age&quot;: &quot;36&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;14&quot;,
+            &quot;employee_name&quot;: &quot;Haley Kennedy&quot;,
+            &quot;employee_salary&quot;: &quot;313500&quot;,
+            &quot;employee_age&quot;: &quot;43&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;15&quot;,
+            &quot;employee_name&quot;: &quot;Tatyana Fitzpatrick&quot;,
+            &quot;employee_salary&quot;: &quot;385750&quot;,
+            &quot;employee_age&quot;: &quot;19&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;16&quot;,
+            &quot;employee_name&quot;: &quot;Michael Silva&quot;,
+            &quot;employee_salary&quot;: &quot;198500&quot;,
+            &quot;employee_age&quot;: &quot;66&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;17&quot;,
+            &quot;employee_name&quot;: &quot;Paul Byrd&quot;,
+            &quot;employee_salary&quot;: &quot;725000&quot;,
+            &quot;employee_age&quot;: &quot;64&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;18&quot;,
+            &quot;employee_name&quot;: &quot;Gloria Little&quot;,
+            &quot;employee_salary&quot;: &quot;237500&quot;,
+            &quot;employee_age&quot;: &quot;59&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;19&quot;,
+            &quot;employee_name&quot;: &quot;Bradley Greer&quot;,
+            &quot;employee_salary&quot;: &quot;132000&quot;,
+            &quot;employee_age&quot;: &quot;41&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;20&quot;,
+            &quot;employee_name&quot;: &quot;Dai Rios&quot;,
+            &quot;employee_salary&quot;: &quot;217500&quot;,
+            &quot;employee_age&quot;: &quot;35&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;21&quot;,
+            &quot;employee_name&quot;: &quot;Jenette Caldwell&quot;,
+            &quot;employee_salary&quot;: &quot;345000&quot;,
+            &quot;employee_age&quot;: &quot;30&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;22&quot;,
+            &quot;employee_name&quot;: &quot;Yuri Berry&quot;,
+            &quot;employee_salary&quot;: &quot;675000&quot;,
+            &quot;employee_age&quot;: &quot;40&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;23&quot;,
+            &quot;employee_name&quot;: &quot;Caesar Vance&quot;,
+            &quot;employee_salary&quot;: &quot;106450&quot;,
+            &quot;employee_age&quot;: &quot;21&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        },
+        {
+            &quot;id&quot;: &quot;24&quot;,
+            &quot;employee_name&quot;: &quot;Doris Wilder&quot;,
+            &quot;employee_salary&quot;: &quot;85600&quot;,
+            &quot;employee_age&quot;: &quot;23&quot;,
+            &quot;profile_image&quot;: &quot;&quot;
+        }
+    ]
+}
+200
+success
+Tiger Nixon
+Request method:	POST
 Request URI:	http://dummy.restapiexample.com/api/v1/create
 Proxy:			&lt;none&gt;
 Request params:	&lt;none&gt;
@@ -110,7 +303,7 @@ Body:
         &quot;name&quot;: &quot;Zaki Akhmad Faridzan&quot;,
         &quot;salary&quot;: &quot;6000&quot;,
         &quot;age&quot;: &quot;21&quot;,
-        &quot;id&quot;: 36
+        &quot;id&quot;: 74
     }
 }
 </pre>
@@ -124,7 +317,7 @@ Body:
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at Apr 27, 2020 4:09:49 PM</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at Apr 30, 2020 1:13:33 AM</p>
 </div>
 </div>
 </body>

@@ -32,13 +32,14 @@ public class Employee {
 
         // Validate using Deserializer
         EmployeeResponse employeeResponse = response.as(EmployeeResponse.class);
+        Assert.assertEquals("61", employeeResponse.getData().get(0).getEmployeeAge());
         System.out.println(employeeResponse.getStatus());
         System.out.println(employeeResponse.getData().get(0).getEmployeeName());
     }
 
     @Test
     public void createEmployee() {
-        //Serializer
+        // Serializer
         EmployeeRequest employeeRequest = new EmployeeRequest();
         employeeRequest.setName("Zaki Akhmad Faridzan");
         employeeRequest.setAge("21");
@@ -57,5 +58,7 @@ public class Employee {
 
         // Check response
         response.getBody().prettyPrint();
+
+        Assert.assertEquals("6000", employeeRequest.getSalary());
     }
 }
