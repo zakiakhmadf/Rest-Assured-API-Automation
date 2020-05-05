@@ -58,6 +58,7 @@ public class Employee {
 
         // Check response
         response.getBody().prettyPrint();
+        response.getStatusCode();
 
         Assert.assertEquals("6000", employeeRequest.getSalary());
     }
